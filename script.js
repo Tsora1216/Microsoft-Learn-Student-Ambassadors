@@ -1,6 +1,3 @@
-/* Please ❤ this if you like it! */
-
-
 (function($) { "use strict";
 		
 	//Page cursors
@@ -51,33 +48,33 @@
 	});
 
 	
-	//Travel portfolio page
+	//Photo portfolio page
 	
-	$(".travel").on('click', function () {
-		$("body").addClass("travel-on");
+	$(".photo").on('click', function () {
+		$("body").addClass("photo-on");
 	});
-	$(".travel-close").on('click', function () {
-		$("body").removeClass("travel-on");
-	});
-
-	
-	//Wildlife portfolio page
-	
-	$(".wildlife").on('click', function () {
-		$("body").addClass("wildlife-on");
-	});
-	$(".wildlife-close").on('click', function () {
-		$("body").removeClass("wildlife-on");
+	$(".photo-close").on('click', function () {
+		$("body").removeClass("photo-on");
 	});
 
 	
-	//Nature portfolio page
+	//Member portfolio page
 	
-	$(".nature").on('click', function () {
-		$("body").addClass("nature-on");
+	$(".member").on('click', function () {
+		$("body").addClass("member-on");
 	});
-	$(".nature-close").on('click', function () {
-		$("body").removeClass("nature-on");
+	$(".member-close").on('click', function () {
+		$("body").removeClass("member-on");
+	});
+
+	
+	//Join portfolio page
+	
+	$(".join").on('click', function () {
+		$("body").addClass("join-on");
+	});
+	$(".join-close").on('click', function () {
+		$("body").removeClass("join-on");
 	});
 
 	
